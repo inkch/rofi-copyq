@@ -1,5 +1,9 @@
 # rofi-copyq
 
+This is a fork from [cjbassi/rofi-copyq](https://github.com/cjbassi/rofi-copyq).
+
+---
+
 Use [Rofi](https://github.com/DaveDavenport/rofi) to search [CopyQ](https://github.com/hluk/CopyQ)'s clipboard history and set the clipboard to the selected snippet.
 
 Requires:
@@ -10,7 +14,7 @@ Requires:
 ## Installation
 
 ```bash
-pip install --user git+https://github.com/cjbassi/rofi-copyq
+pip install --user git+https://github.com/inkch/rofi-copyq
 ```
 
 Note that `~/.local/bin` needs to be added to your `$PATH` for user installs.

@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='rofi-copyq',
-    version='0.1.1',
+    version='0.1',
     scripts=['rofi-copyq'],
-    url='https://github.com/cjbassi/rofi-copyq',
+    url='https://github.com/inkch/rofi-copyq',
 )
