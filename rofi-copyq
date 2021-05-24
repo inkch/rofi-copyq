@@ -28,7 +28,8 @@ if __name__ == '__main__':
     for json_obj in json_arr:
         text = json_obj['text']
         text = " ".join(filter(None, text.replace("\n", " ").split(" ")))
-        items.append(text)
+        if text:
+            items.append(text)
 
     title = 'rofi-copyq'
     rofi = f'rofi -dmenu -i -p {title} -format i'.split()
